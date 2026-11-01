@@ -1,0 +1,16 @@
+{
+  "name": "plugin-qa-engineer",
+  "owner": {
+    "name": "ADRenaline Suite"
+  },
+  "plugins": [
+    {
+      "name": "plugin-qa-engineer",
+      "source": "./",
+      "description": "Test scenarios from a use case, at a named level and a named type."
+    }
+  ],
+  "metadata": {
+    "description": "Marketplace with the QA Engineer plugin."
+  }
+}

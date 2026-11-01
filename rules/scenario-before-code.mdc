@@ -1,0 +1,14 @@
+---
+description: A test traces to a use case. Design review, WCAG, and model evaluation stay in their plugins.
+alwaysApply: true
+---
+
+# Scenario before code
+
+The use case comes from `plugin-project-manager`. This plugin writes the scenario and, when asked to automate it, the test in the project's tree.
+
+Levels (component, integration, system, acceptance) and types (functional, non-functional, structural, confirmation, regression) are named inside those two pieces. They share one scenario shape, so they are not ten templates.
+
+The pyramid (more component tests, fewer end-to-end tests) is the shape to aim at. An ice-cream cone, almost everything through the UI, is named when that is what the project has. It is not the target. Source: ISTQB CTFL levels and types, and the ISTQB CT-TAS v1.0 description of Cohn's pyramid (2024).
+
+Arrange, act, assert. One negative case when the behavior touches authentication: no token, or the wrong role, using a role the person already named.

@@ -1,0 +1,15 @@
+{
+  "name": "plugin-qa-engineer",
+  "description": "Test scenarios from a use case, at a named level and a named type.",
+  "version": "0.0.1",
+  "author": {
+    "name": "d-mente"
+  },
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "scenario",
+    "istqb"
+  ],
+  "repository": "https://github.com/ADRenaline-Suite/plugin-qa-engineer"
+}
